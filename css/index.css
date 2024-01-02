@@ -4,6 +4,10 @@
 @import url("./base/useful.css");
 @import url("./base/variables.css");
 
+/* Pages */
+
+@import url("./pages/init.css");
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -12,7 +16,3 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-/* Pages */
-
-@import url("./pages/init.css");

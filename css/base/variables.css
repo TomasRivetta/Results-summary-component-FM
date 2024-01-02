@@ -9,11 +9,15 @@
 
     /* GRADIANT */
 
-    --LightSlateBlue: hsl(252, 100%, 67%); /* background */
-    --LightRoyalBlue: hsl(241, 81%, 54%); /* background */
+    --LightSlateBlue: hsl(252, 100%, 67%);
+    /* background */
+    --LightRoyalBlue: hsl(241, 81%, 54%);
+    /* background */
 
-    --VioletBlue: hsla(256, 72%, 46%, 1); /* circle */
-    --PersianBlue: hsla(241, 72%, 46%, 0); /* circle */
+    --VioletBlue: hsla(256, 72%, 46%, 1);
+    /* circle */
+    --PersianBlue: hsla(241, 72%, 46%, 0);
+    /* circle */
 
     /* NEUTRAL */
 
@@ -44,4 +48,5 @@
 body {
     font-size: var(--font-size-p);
     font-family: var(--typography-font);
+    background-color: var(--PaleBlue);
 }
