@@ -29,14 +29,15 @@
 .container-info_in_number-main{
     background: linear-gradient(var(--VioletBlue),var(--PersianBlue));
     border-radius: 50%;
+    width: 80%;
 }
 
 .container-info_in_number{
-    padding: 40px;
+    padding: 30px;
 }
 
 .info_general_number_one{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: var(--font-weights-xl);
 }
 
