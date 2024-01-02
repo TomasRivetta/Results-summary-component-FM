@@ -1,0 +1,47 @@
+:root {
+
+    /* PRIMARY */
+
+    --LightRed: hsl(0, 100%, 67%);
+    --OrangeyYellow: hsl(39, 100%, 56%);
+    --GreenTeal: hsl(166, 100%, 37%);
+    --CobaltBlue: hsl(234, 85%, 45%);
+
+    /* GRADIANT */
+
+    --LightSlateBlue: hsl(252, 100%, 67%); /* background */
+    --LightRoyalBlue: hsl(241, 81%, 54%); /* background */
+
+    --VioletBlue: hsla(256, 72%, 46%, 1); /* circle */
+    --PersianBlue: hsla(241, 72%, 46%, 0); /* circle */
+
+    /* NEUTRAL */
+
+    --White: hsl(0, 0%, 100%);
+    --PaleBlue: hsl(221, 100%, 96%);
+    --LightLavender: hsl(241, 100%, 89%);
+    --DarkGrayBlue: hsl(224, 30%, 27%);
+
+    /* TYPOGRAPHY */
+
+    --font-size-p: 18px;
+
+    --font-weights-x: 500;
+    --font-weights-xl: 700;
+    --font-weights-xxl: 800;
+
+    /* FONT */
+
+    --typography-font: 'Hanken Grotesk';
+
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url("../../assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+}
+
+body {
+    font-size: var(--font-size-p);
+    font-family: var(--typography-font);
+}
