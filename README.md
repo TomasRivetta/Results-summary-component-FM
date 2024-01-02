@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repository Git Hub](https://github.com/TomasRivetta/Results-summary-component-FM)
-- Live Site URL: [Git Hub Pages](https://your-live-site-url.com)
+- Live Site URL: [Git Hub Pages](https://tomasrivetta.github.io/Results-summary-component-FM/)
 
 ## My process
 
@@ -44,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Tomas Rivetta](https://tomasrivetta.github.io/Portafolio/)
+- Frontend Mentor - [@TomasRivetta](https://www.frontendmentor.io/profile/TomasRivetta)
+- LinkedIn - [@tomasrivetta-fullstack](https://www.linkedin.com/in/tomasrivetta-fullstack/)
