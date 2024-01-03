@@ -6,7 +6,7 @@ data.forEach(element => {
     ul.innerHTML += `
     <li>
 
-        <div class="container-info__secundaria-element">
+        <div class="container-info__secundaria-element" style="background:var(${element.background})">
 
             <div class="container-info__secundaria-element--title">
                 <img src="${element.icon}" alt="icon ${element.category}">
