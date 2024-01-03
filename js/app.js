@@ -10,7 +10,7 @@ data.forEach(element => {
 
             <div class="container-info__secundaria-element--title">
                 <img src="${element.icon}" alt="icon ${element.category}">
-                <p>${element.category}</p>
+                <p style="color:var(${element.color});">${element.category}</p>
             </div>
 
             <div class="container-info__secundaria-element--information">
