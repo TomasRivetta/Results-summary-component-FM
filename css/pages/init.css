@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    margin: 0 auto;
+    margin: 10% auto;
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
     border-radius: 30px;
-
+    justify-content: center;
     -webkit-box-shadow: 10px 10px 29px 9px rgba(204, 204, 204, 1);
     -moz-box-shadow: 10px 10px 29px 9px rgba(204, 204, 204, 1);
     box-shadow: 10px 10px 29px 9px --LightLavender;
@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 6%;
+    padding: 10%;
     gap: 30px;
     color: var(--White);
     border-radius: 30px;
@@ -67,7 +67,7 @@
     display: flex;
     width: 50%;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
 }
 
 .container-info__secundaria--title {
@@ -80,21 +80,25 @@
 .container-info__secundaria-elements {
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 65px;
+    padding: 0 0 0 45px;
 }
 
 .container-info__secundaria-element {
     display: flex;
-    width: 100%;
+    width: 85%;
     justify-content: space-between;
     border-radius: 10px;
     padding: 15px;
     border: solid groove;
 }
 
-/* li {
-    margin-bottom: 20%;
-} */
+li {
+    margin-bottom: 6%;
+}
+
+.visual{
+    margin-bottom: 0%;
+}
 
 .container-info__secundaria-element--title {
     display: flex;
@@ -116,7 +120,6 @@
 }
 
 .container-info__secundaria--button_container {
-    padding: 0 0 0 45px;
     width: 100%;
     text-align: center;
 }
@@ -133,4 +136,31 @@
     cursor: pointer;
     background: linear-gradient(var(--LightRoyalBlue), var(--VioletBlue));
     font-weight: var(--font-weights-xl);
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .container-main{
+        flex-direction: column;
+        width: 100%;
+        margin: 0% 0%;
+        border-radius: 0px;
+    }
+    
+    .container-info__principal{
+        border-radius: 0 0 30px 30px;
+        width: 100%;
+    }
+    
+    .container-info_in_number-main{
+        width: 50%;   
+    }
+
+    .container-info__secundaria{
+        margin-top: 8%;
+        width: 100%;
+        height: 80vh;
+    }
+    
 }
